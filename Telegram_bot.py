@@ -6,4 +6,5 @@ bot = telebot.TeleBot(Token, parse_mode=None)
 def send_welcome(message):
 	bot.reply_to(message, "Sherzod nichiksan")
 
-bot.polling()
+# bot.polling()
+print('1')
